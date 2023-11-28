@@ -22,9 +22,11 @@ export default function App() {
         </div>
       </div>
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header">
+
+        </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset"/>
         </main>
       </div>
     </div>
