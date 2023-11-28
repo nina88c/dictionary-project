@@ -4,3 +4,28 @@ body {
   font-weight: normal;
   border: 3px solid #2b51ed;
 }
+
+.tab-bar {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px; 
+  margin: 0;
+  background-color: #2b51ed;
+  color: white;
+  
+}
+
+.tab-bar p {
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+.tab-bar i {
+  padding: 8px;
+}
+
+.delina-link{
+   color: white;
+   
+}
