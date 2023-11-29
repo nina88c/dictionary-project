@@ -32,6 +32,7 @@ setResults(response.data);
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
+    //Pexels API https://www.pexels.com/api/
     let pexelsApiKey =
       "mhmXN2j9bQpVtZCkAzsocvDHJkbxVAdQFU72HZPbaJXhPKn3lHHHjm9h";
     let pexelsUrl =
